@@ -36,7 +36,7 @@ struct ProductDetailView: View {
             .padding()
             .overlay {
                 RoundedRectangle(cornerRadius: 8)
-                    .stroke(Color("Border"))
+                    .stroke(Color.borderColor)
             }
         }
         .padding(16)

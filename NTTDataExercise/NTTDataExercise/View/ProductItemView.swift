@@ -22,7 +22,7 @@ struct ProductItemView: View {
         .frame(maxWidth: .infinity)
         .overlay {
             RoundedRectangle(cornerRadius: 8)
-                .stroke(Color("Border"))
+                .stroke(Color.borderColor)
         }
     }
 }

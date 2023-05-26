@@ -17,6 +17,7 @@
 		E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */; };
 		E55413E72A210CF200A3E306 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413E62A210CF200A3E306 /* ProductItemView.swift */; };
 		E55413EB2A21135000A3E306 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413EA2A21135000A3E306 /* MockData.swift */; };
+		E55413EE2A21173300A3E306 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413ED2A21173300A3E306 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		E55413E62A210CF200A3E306 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		E55413EA2A21135000A3E306 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		E55413ED2A21173300A3E306 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		E55413CC2A1FE9BE00A3E306 /* NTTDataExercise */ = {
 			isa = PBXGroup;
 			children = (
+				E55413EC2A21172300A3E306 /* Extensions */,
 				E55413E32A1FF22500A3E306 /* View */,
 				E55413E02A1FEEE700A3E306 /* ViewModel */,
 				E55413DB2A1FEA4600A3E306 /* Model */,
@@ -115,6 +118,14 @@
 				E55413EA2A21135000A3E306 /* MockData.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		E55413EC2A21172300A3E306 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E55413ED2A21173300A3E306 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			files = (
 				E55413DF2A1FEAE500A3E306 /* ProductsResponse.swift in Sources */,
 				E55413D02A1FE9BE00A3E306 /* ProductsListView.swift in Sources */,
+				E55413EE2A21173300A3E306 /* Color+Extensions.swift in Sources */,
 				E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */,
 				E55413CE2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift in Sources */,
 				E55413E22A1FEEF500A3E306 /* ProductsViewModel.swift in Sources */,
