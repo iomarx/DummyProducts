@@ -14,3 +14,10 @@ struct Product: Identifiable, Codable {
     let price: Float
     let thumbnail: String
 }
+
+extension Product {
+    
+    var formattedPrice: String {
+        price.formatted(.currency(code: "MXN"))
+    }
+}

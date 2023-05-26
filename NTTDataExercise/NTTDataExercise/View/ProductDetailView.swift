@@ -22,7 +22,7 @@ struct ProductDetailView: View {
             }
             
             Text(product.description)
-            Text("Precio: \(product.price)")
+            Text("Precio: \(product.formattedPrice)")
             
             Spacer()
             

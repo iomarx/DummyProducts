@@ -16,7 +16,7 @@ struct ProductItemView: View {
                 .padding(.bottom, 8)
             Text("Descripción: \(product.description)")
                 .padding(.bottom, 8)
-            Text("Precio: \(product.price)")
+            Text("Precio: \(product.formattedPrice)")
         }
         .padding(16)
         .frame(maxWidth: .infinity)
