@@ -23,6 +23,7 @@ struct ProductsListView: View {
                 }
                 .buttonStyle(PlainButtonStyle())
                 .listRowSeparator(.hidden)
+                .listRowInsets(EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16))
             }
             .listStyle(.plain)
             .navigationTitle("Productos")
