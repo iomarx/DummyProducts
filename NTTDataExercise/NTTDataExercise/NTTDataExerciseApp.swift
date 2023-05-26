@@ -11,7 +11,7 @@ import SwiftUI
 struct NTTDataExerciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductsListView()
         }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E55413CE2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413CD2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift */; };
-		E55413D02A1FE9BE00A3E306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413CF2A1FE9BE00A3E306 /* ContentView.swift */; };
+		E55413D02A1FE9BE00A3E306 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413CF2A1FE9BE00A3E306 /* ProductsListView.swift */; };
 		E55413D22A1FE9BF00A3E306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55413D12A1FE9BF00A3E306 /* Assets.xcassets */; };
 		E55413D52A1FE9BF00A3E306 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55413D42A1FE9BF00A3E306 /* Preview Assets.xcassets */; };
 		E55413DD2A1FEA5300A3E306 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413DC2A1FEA5300A3E306 /* Product.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		E55413CA2A1FE9BE00A3E306 /* NTTDataExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTDataExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55413CD2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTDataExerciseApp.swift; sourceTree = "<group>"; };
-		E55413CF2A1FE9BE00A3E306 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E55413CF2A1FE9BE00A3E306 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		E55413D12A1FE9BF00A3E306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E55413D42A1FE9BF00A3E306 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E55413DC2A1FEA5300A3E306 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		E55413E32A1FF22500A3E306 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E55413CF2A1FE9BE00A3E306 /* ContentView.swift */,
+				E55413CF2A1FE9BE00A3E306 /* ProductsListView.swift */,
 				E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */,
 			);
 			path = View;
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E55413DF2A1FEAE500A3E306 /* ProductsResponse.swift in Sources */,
-				E55413D02A1FE9BE00A3E306 /* ContentView.swift in Sources */,
+				E55413D02A1FE9BE00A3E306 /* ProductsListView.swift in Sources */,
 				E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */,
 				E55413CE2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift in Sources */,
 				E55413E22A1FEEF500A3E306 /* ProductsViewModel.swift in Sources */,

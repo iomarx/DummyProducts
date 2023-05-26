@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ProductsListView.swift
 //  NTTDataExercise
 //
 //  Created by Omar Bacilio on 25/05/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProductsListView: View {
     
     @ObservedObject private var viewModel = ProductsViewModel()
     
@@ -44,6 +44,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProductsListView()
     }
 }
