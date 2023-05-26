@@ -12,17 +12,18 @@ struct ProductDetailView: View {
     
     var body: some View {
         VStack {
-            VStack {
-                AsyncImage(url: URL(string: product.thumbnail)) { image in
-                    image.resizable()
-                } placeholder: {
-                    ProgressView()
-                }
-                .frame(width: 300, height: 200)
+            AsyncImage(url: URL(string: product.thumbnail)) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
             }
+            .frame(height: 200)
+            .padding([.top, .bottom], 24)
             
             Text(product.description)
+                .padding(.bottom, 24)
             Text("Precio: \(product.formattedPrice)")
+                .padding(.bottom, 32)
             
             Spacer()
             
@@ -38,7 +39,7 @@ struct ProductDetailView: View {
                     .stroke(Color("Border"))
             }
         }
-        .padding([.all], 16)
+        .padding(16)
     }
 }
 
