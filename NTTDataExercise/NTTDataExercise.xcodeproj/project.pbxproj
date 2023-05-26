@@ -84,6 +84,7 @@
 		E55413DB2A1FEA4600A3E306 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E55413E92A21134300A3E306 /* Mock */,
 				E55413DC2A1FEA5300A3E306 /* Product.swift */,
 				E55413DE2A1FEAE500A3E306 /* ProductsResponse.swift */,
 			);
@@ -93,7 +94,6 @@
 		E55413E02A1FEEE700A3E306 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				E55413E92A21134300A3E306 /* Mock */,
 				E55413E12A1FEEF500A3E306 /* ProductsViewModel.swift */,
 			);
 			path = ViewModel;
