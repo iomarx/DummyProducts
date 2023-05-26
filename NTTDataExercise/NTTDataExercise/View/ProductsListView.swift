@@ -17,19 +17,7 @@ struct ProductsListView: View {
                 NavigationLink {
                     ProductDetailView(product: product)
                 } label: {
-                    VStack(alignment: .leading) {
-                        Text("Nombre: \(product.title)")
-                            .padding(.bottom, 8)
-                        Text("Descripción: \(product.description)")
-                            .padding(.bottom, 8)
-                        Text("Precio: \(product.price)")
-                    }
-                    .padding(16)
-                    .frame(maxWidth: .infinity)
-                    .overlay {
-                        RoundedRectangle(cornerRadius: 8)
-                            .stroke(Color("Border"))
-                    }
+                    ProductItemView(product: product)
                 }
                 .buttonStyle(PlainButtonStyle())
             }

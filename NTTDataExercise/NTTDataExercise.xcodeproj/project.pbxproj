@@ -15,6 +15,7 @@
 		E55413DF2A1FEAE500A3E306 /* ProductsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413DE2A1FEAE500A3E306 /* ProductsResponse.swift */; };
 		E55413E22A1FEEF500A3E306 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413E12A1FEEF500A3E306 /* ProductsViewModel.swift */; };
 		E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */; };
+		E55413E72A210CF200A3E306 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413E62A210CF200A3E306 /* ProductItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E55413DE2A1FEAE500A3E306 /* ProductsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponse.swift; sourceTree = "<group>"; };
 		E55413E12A1FEEF500A3E306 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
 		E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		E55413E62A210CF200A3E306 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E55413CF2A1FE9BE00A3E306 /* ProductsListView.swift */,
 				E55413E42A1FF25C00A3E306 /* ProductDetailView.swift */,
+				E55413E62A210CF200A3E306 /* ProductItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */,
 				E55413CE2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift in Sources */,
 				E55413E22A1FEEF500A3E306 /* ProductsViewModel.swift in Sources */,
+				E55413E72A210CF200A3E306 /* ProductItemView.swift in Sources */,
 				E55413DD2A1FEA5300A3E306 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
