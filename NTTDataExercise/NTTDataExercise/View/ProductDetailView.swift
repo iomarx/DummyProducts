@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ProductDetailView: View {
+    
     let product: Product
+    
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         VStack {
@@ -28,7 +31,7 @@ struct ProductDetailView: View {
             Spacer()
             
             Button {
-                
+                presentationMode.wrappedValue.dismiss()
             } label: {
                 Text("Regresar")
                     .frame(maxWidth: .infinity)
