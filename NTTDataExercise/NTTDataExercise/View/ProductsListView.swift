@@ -20,8 +20,8 @@ struct ProductsListView: View {
                     ProductItemView(product: product)
                 }
                 .buttonStyle(PlainButtonStyle())
+                .listRowSeparator(.hidden)
             }
-            .listRowSeparator(.hidden)
             .listStyle(.plain)
             .navigationTitle("Productos")
             .navigationBarTitleDisplayMode(.inline)
