@@ -43,6 +43,7 @@ struct ProductDetailView: View {
             }
         }
         .padding(ViewConstants.mediumSize)
+        .navigationTitle(product.title)
     }
 }
 
