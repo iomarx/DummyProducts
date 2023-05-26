@@ -11,21 +11,18 @@ class ProductsViewModel: ObservableObject {
     
     @Published var products: [Product] = []
     
-    init() {
+    private let network: Network
+    
+    init(network: Network) {
+        self.network = network
         fetchProducts()
     }
     
-    func fetchProducts() {
-        if let url = URL(string: "https://dummyjson.com/products") {
-            URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
-                if let data {
-                    let productsResponse = try? JSONDecoder().decode(ProductsResponse.self, from: data)
-                    
-                    DispatchQueue.main.async {
-                        self?.products = productsResponse?.products ?? []
-                    }
-                }
-            }.resume()
+    private func fetchProducts() {
+        network.fetchProducts { [weak self] products in
+            DispatchQueue.main.async {
+                self?.products = products
+            }
         }
     }
 }

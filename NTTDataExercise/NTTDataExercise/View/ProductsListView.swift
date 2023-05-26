@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProductsListView: View {
     
-    @ObservedObject private var viewModel = ProductsViewModel()
+    @ObservedObject private var viewModel = ProductsViewModel(network: NetworkImpl())
     
     var body: some View {
         NavigationView {

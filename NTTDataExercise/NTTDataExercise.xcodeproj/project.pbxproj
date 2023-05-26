@@ -19,6 +19,8 @@
 		E55413EB2A21135000A3E306 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413EA2A21135000A3E306 /* MockData.swift */; };
 		E55413EE2A21173300A3E306 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413ED2A21173300A3E306 /* Color+Extensions.swift */; };
 		E55413F12A21196A00A3E306 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413F02A21196A00A3E306 /* ViewConstants.swift */; };
+		E55413F42A211ACA00A3E306 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413F32A211ACA00A3E306 /* Network.swift */; };
+		E55413F62A211AFE00A3E306 /* NetworkImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55413F52A211AFE00A3E306 /* NetworkImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		E55413EA2A21135000A3E306 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		E55413ED2A21173300A3E306 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		E55413F02A21196A00A3E306 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		E55413F32A211ACA00A3E306 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E55413F52A211AFE00A3E306 /* NetworkImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		E55413DB2A1FEA4600A3E306 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E55413F22A211AB800A3E306 /* Network */,
 				E55413E92A21134300A3E306 /* Mock */,
 				E55413DC2A1FEA5300A3E306 /* Product.swift */,
 				E55413DE2A1FEAE500A3E306 /* ProductsResponse.swift */,
@@ -129,6 +134,15 @@
 				E55413ED2A21173300A3E306 /* Color+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E55413F22A211AB800A3E306 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E55413F32A211ACA00A3E306 /* Network.swift */,
+				E55413F52A211AFE00A3E306 /* NetworkImpl.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,11 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E55413F62A211AFE00A3E306 /* NetworkImpl.swift in Sources */,
 				E55413F12A21196A00A3E306 /* ViewConstants.swift in Sources */,
 				E55413DF2A1FEAE500A3E306 /* ProductsResponse.swift in Sources */,
 				E55413D02A1FE9BE00A3E306 /* ProductsListView.swift in Sources */,
 				E55413EE2A21173300A3E306 /* Color+Extensions.swift in Sources */,
 				E55413E52A1FF25C00A3E306 /* ProductDetailView.swift in Sources */,
+				E55413F42A211ACA00A3E306 /* Network.swift in Sources */,
 				E55413CE2A1FE9BE00A3E306 /* NTTDataExerciseApp.swift in Sources */,
 				E55413E22A1FEEF500A3E306 /* ProductsViewModel.swift in Sources */,
 				E55413EB2A21135000A3E306 /* MockData.swift in Sources */,
