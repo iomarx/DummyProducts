@@ -13,15 +13,15 @@ struct ProductItemView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Nombre: \(product.title)")
-                .padding(.bottom, 8)
+                .padding(.bottom, ViewConstants.smallSize)
             Text("Descripción: \(product.description)")
-                .padding(.bottom, 8)
+                .padding(.bottom, ViewConstants.smallSize)
             Text("Precio: \(product.formattedPrice)")
         }
-        .padding(16)
+        .padding(ViewConstants.mediumSize)
         .frame(maxWidth: .infinity)
         .overlay {
-            RoundedRectangle(cornerRadius: 8)
+            RoundedRectangle(cornerRadius: ViewConstants.smallSize)
                 .stroke(Color.borderColor)
         }
     }

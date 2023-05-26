@@ -20,13 +20,13 @@ struct ProductDetailView: View {
             } placeholder: {
                 ProgressView()
             }
-            .frame(height: 200)
-            .padding([.top, .bottom], 24)
+            .frame(height: ViewConstants.imageDetailHeight)
+            .padding([.top, .bottom], ViewConstants.largeSize)
             
             Text(product.description)
-                .padding(.bottom, 24)
+                .padding(.bottom, ViewConstants.largeSize)
             Text("Precio: \(product.formattedPrice)")
-                .padding(.bottom, 32)
+                .padding(.bottom, ViewConstants.extraLargeSize)
             
             Spacer()
             
@@ -38,11 +38,11 @@ struct ProductDetailView: View {
             }
             .padding()
             .overlay {
-                RoundedRectangle(cornerRadius: 8)
+                RoundedRectangle(cornerRadius: ViewConstants.smallSize)
                     .stroke(Color.borderColor)
             }
         }
-        .padding(16)
+        .padding(ViewConstants.mediumSize)
     }
 }
 
