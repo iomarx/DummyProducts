@@ -29,6 +29,6 @@ struct ProductItemView: View {
 
 struct ProductItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductItemView(product: Product(id: 1, title: "Title", description: "Description", price: 1.0, thumbnail: ""))
+        ProductItemView(product: MockData.mockProduct)
     }
 }

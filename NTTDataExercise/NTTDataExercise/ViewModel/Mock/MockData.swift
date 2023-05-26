@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct MockData {
+    static let mockProduct = Product(id: 1, title: "Product", description: "Product description", price: 1, thumbnail: "")
+}
