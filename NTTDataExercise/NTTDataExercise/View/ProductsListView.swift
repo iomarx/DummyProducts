@@ -14,10 +14,12 @@ struct ProductsListView: View {
     var body: some View {
         NavigationView {
             List(viewModel.products) { product in
-                NavigationLink {
-                    ProductDetailView(product: product)
-                } label: {
+                ZStack {
                     ProductItemView(product: product)
+                    NavigationLink(destination: ProductDetailView(product: product)) {
+                        EmptyView()
+                    }
+                    .opacity(0.0)
                 }
                 .buttonStyle(PlainButtonStyle())
                 .listRowSeparator(.hidden)
